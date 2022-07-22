@@ -1,0 +1,187 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+
+
+body {
+ background-color: #DCEBFC; 
+  text-align: center;
+  
+}
+
+
+header{
+ 
+}
+/* STYLE TEXT */
+
+h1 {
+  color: #005A15;
+  font-family: 'El Messiri', sans-serif;
+  font-size: 50px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+
+h2{
+  color: #496B4D;
+  font-family: 'Cormorant Upright', serif;
+}
+
+
+main {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.topic{
+  color: #005A15;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+p{
+  color: #0D3611;
+  font-size: 20px;
+  font-family: "Cormorant Unicase", serif;
+  font-weight: normal;
+  text-align: center;
+  line-height: 250%
+}
+
+.spot{
+  padding-top: 1em;
+  pading-bottom: 1em;
+  color: #496B4D;
+  font-family: 'Cormorant Upright', serif;
+}
+
+
+
+/* STYLE IMAGES */
+.puff{
+  background-image: url("assets/book puff.jpg");
+  /*height*/
+  min-height: 1000px;
+  /* create parallax effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+img {
+ display: block; 
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-container{
+
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+}
+
+
+.flex-item{
+
+  flex-basis: 100%;
+ 
+  margin: 1%
+  
+}
+
+/* STYLE NAV BAR */
+nav {
+  text-align:center;
+  font-weight:bold;
+  margin-top:0%;
+  margin-bottom:1em;
+}
+
+ul{
+  list-style-type: none;
+  background-color: ;
+  overflow: hidden;
+  padding: 1em;
+}
+
+
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #31BD32;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #121C13;
+}
+
+/* STYLE BUTTONS */
+
+#myButton{
+  background-color: #DCF;
+  border-radius: 15%;
+  border-style: none;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 1em;
+  
+}
+
+/* ADD MORE! */
+
+/*GENERATE FACT FEATURE*/
+
+.genFact{
+  background: #277129;
+  border-radius: 10px;
+  border-style: none;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+ 
+}
+
+.genText{
+  color: #DCEBFC; 
+}
+
+#fact{
+  border-style: none;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1.2em
+  color: #E2D7FE
+}
